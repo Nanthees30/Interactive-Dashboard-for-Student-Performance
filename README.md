@@ -31,4 +31,8 @@ Data Visualization: Chart.js
 
 Version Control: Git & GitHub
 
+<<<<<<< HEAD
 Hosting: Netlify
+=======
+Hosting: Vercel
+>>>>>>> f52cd01 (Make Sidebar responsive for mobile and update grid layout)

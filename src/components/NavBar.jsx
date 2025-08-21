@@ -6,7 +6,7 @@ const NavBar = ({ isDarkMode, handleDarkModeToggle }) => {
 
   return (
     <header className="w-full bg-gradient-to-t from-blue-600 to-blue-300 dark:bg-gray-800 shadow-sm rounded-b-xl sticky top-0 z-10">
-      <div className="flex items-center justify-between p-4">
+      <div className="flex items-center justify-between p-6">
         {/* Title */}
         <h1 className="text-xl md:text-2xl font-bold text-gray-900">
           Student Performance Dashboard

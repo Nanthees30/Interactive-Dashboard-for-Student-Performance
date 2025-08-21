@@ -115,7 +115,7 @@ const App = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gray-100 [data-theme=dark]:bg-gray-900 [data-theme=dark]:text-gray-100 transition-colors duration-300 font-sans">
       <NavBar isDarkMode={isDarkMode} handleDarkModeToggle={handleDarkModeToggle} />
-      <main className="flex flex-1 flex-col md:flex-row p-6">
+      <main className="grid grid-cols-1 md:grid-cols-4 gap-6 p-6">
         <Sidebar
           selectedSubject={selectedSubject}
           handleSubjectChange={(e) => setSelectedSubject(e.target.value)}
@@ -126,7 +126,7 @@ const App = () => {
           uniqueSubjects={uniqueSubjects}
           uniqueGrades={uniqueGrades}
         />
-        <section className="flex-1 flex flex-col space-y-6">
+        <section className="md:col-span-3 flex flex-col space-y-6">
           <StudentList
             students={sortedStudents}
             sortConfig={sortConfig}

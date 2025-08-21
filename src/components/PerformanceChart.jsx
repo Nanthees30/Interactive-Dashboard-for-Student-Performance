@@ -25,6 +25,8 @@ const PerformanceChart = ({ chartData, isDarkMode }) => {
           }]
         },
         options: {
+          responsive: true,
+          maintainAspectRatio: false,
           plugins: {
             legend: {
               labels: {
@@ -37,12 +39,12 @@ const PerformanceChart = ({ chartData, isDarkMode }) => {
               beginAtZero: true,
               max: 100,
               ticks: {
-                color: isDarkMode ? "#fff" : "#000" 
+                color: isDarkMode ? "#fff" : "#000"
               }
             },
             x: {
               ticks: {
-                color: isDarkMode ? "#fff" : "#000" 
+                color: isDarkMode ? "#fff" : "#000"
               }
             }
           }
@@ -52,14 +54,16 @@ const PerformanceChart = ({ chartData, isDarkMode }) => {
   }, [chartData, isDarkMode]);
 
   return (
-    <div className={`ml-64 rounded-2xl shadow-xl p-6 
-      ${isDarkMode 
-        ? "bg-gray-800" 
-        : "bg-gradient-to-t from-blue-200 to-blue-100"}`}>
-      <h2 className={`text-xl font-bold mb-4 ${isDarkMode ? "text-white" : "text-gray-900"}`}>
+    <div
+      className={`ml-0 md:ml-10 rounded-2xl shadow-xl p-4 md:p-6 bg-white dark:bg-gray-800`}
+      style={{ height: "400px" }} // Chart height responsive
+    >
+      <h2 className={`text-xl md:text-2xl font-bold mb-4 ${isDarkMode ? "text-white" : "text-gray-900"}`}>
         Average Score by Subject
       </h2>
-      <canvas ref={chartRef}></canvas>
+      <div className="h-full w-full">
+        <canvas ref={chartRef}></canvas>
+      </div>
     </div>
   );
 };
