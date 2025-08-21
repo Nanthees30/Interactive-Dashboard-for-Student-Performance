@@ -1,0 +1,108 @@
+[
+    {
+        "id": 1,
+        "name": "Aarav Sharma",
+        "grade": "A",
+        "score": 92,
+        "subject": "Mathematics"
+    },
+    {
+        "id": 2,
+        "name": "Isha Verma",
+        "grade": "B",
+        "score": 78,
+        "subject": "Science"
+    },
+    {
+        "id": 3,
+        "name": "Rahul Kumar",
+        "grade": "A",
+        "score": 95,
+        "subject": "History"
+    },
+    {
+        "id": 4,
+        "name": "Priya Singh",
+        "grade": "C",
+        "score": 65,
+        "subject": "English"
+    },
+    {
+        "id": 5,
+        "name": "Ananya Gupta",
+        "grade": "A",
+        "score": 88,
+        "subject": "Mathematics"
+    },
+    {
+        "id": 6,
+        "name": "Aditya Roy",
+        "grade": "B",
+        "score": 81,
+        "subject": "Science"
+    },
+    {
+        "id": 7,
+        "name": "Neha Patel",
+        "grade": "D",
+        "score": 55,
+        "subject": "Social Studies"
+    },
+    {
+        "id": 8,
+        "name": "Vikram Das",
+        "grade": "A",
+        "score": 98,
+        "subject": "English"
+    },
+    {
+        "id": 9,
+        "name": "Sonia Devi",
+        "grade": "B",
+        "score": 73,
+        "subject": "History"
+    },
+    {
+        "id": 10,
+        "name": "Rajesh Kumar",
+        "grade": "C",
+        "score": 60,
+        "subject": "Science"
+    },
+    {
+        "id": 11,
+        "name": "Deepa Sharma",
+        "grade": "A",
+        "score": 91,
+        "subject": "Mathematics"
+    },
+    {
+        "id": 12,
+        "name": "Arjun Malhotra",
+        "grade": "B",
+        "score": 85,
+        "subject": "English"
+    },
+    {
+        "id": 13,
+        "name": "Kavita Reddy",
+        "grade": "C",
+        "score": 70,
+        "subject": "History"
+    },
+    {
+        "id": 14,
+        "name": "Siddharth Singh",
+        "grade": "B",
+        "score": 83,
+        "subject": "Science"
+    },
+    {
+        "id": 15,
+        "name": "Pooja Gupta",
+        "grade": "A",
+        "score": 94,
+        "subject": "Social Studies"
+    }
+
+]
