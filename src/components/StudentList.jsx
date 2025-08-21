@@ -10,7 +10,7 @@ const StudentList = ({ students, sortConfig, requestSort, openModal }) => (
     {/* Table Container */}
     <div className="overflow-x-auto overflow-y-auto max-h-[400px] rounded-xl">
       <table className="min-w-[600px] md:min-w-full text-left table-auto">
-        <thead className="sticky top-0 uppercase text-md bg-gradient-to-b from-blue-300 to-blue-100 dark:bg-gray-800 dark:text-gray-200 text-gray-800">
+        <thead className="sticky top-0 uppercase text-md bg-gradient-to-b from-blue-300 to-blue-100 dark:bg-gray-800 dark:text-gray-900 text-gray-800">
           <tr>
             <th className="p-3 cursor-pointer" onClick={() => requestSort("id")}>
               <div className="flex items-center gap-1">
